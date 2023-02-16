@@ -1,0 +1,73 @@
+
+.body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* navabar */
+.navbar-brand{color: white!important;}
+.nav-link{color: white!important;}
+.nav-link:hover{color: #FCCE21!important;}
+.navbar{
+    background-color: rgb(37, 12, 91)!important;}
+.navbar-nav .active {color: #FCCE21!important;}
+
+
+
+
+
+
+
+/* footer */
+.container-fluid-footer{
+background-color: rgb(37, 12, 91);
+    }
+
+
+.list-inline-item a{
+    color: #ab91f7;
+}
+
+hr{
+    color: aliceblue;
+}
+
+.fa-phone{
+    color: #ebe2e2;
+}
+
+p{
+    color: #ebe2e2;
+}
+.text{
+    color: #ab91f7;
+}
+
+.text:hover{
+    color: #FCCE21;
+}
+
+
+/* hero section */
+
+
+.hero {
+    background-image: url('path/to/your/image.jpg');
+    background-size: cover;
+    height: 500px; /* set the height of the hero section */
+  }
+
+ 
+/* cards zoomhover */
+  .card {
+    overflow: hidden;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    transform-origin: center center;
+  }
+  
+  .card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+    z-index: 1;
+  }
+
