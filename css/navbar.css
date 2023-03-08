@@ -1,63 +1,76 @@
 
-.body{
-    font-family: 'Montserrat', sans-serif;
-}
-
-/* navabar */
-.navbar-brand{color: white!important;}
-.nav-link{color: white!important;}
-.nav-link:hover{color: #FCCE21!important;}
-.navbar{
-    background-color: rgb(37, 12, 91)!important;}
-.navbar-nav .active {color: #FCCE21!important;}
-
-
-
-
-
-
-
-/* footer */
-.container-fluid-footer{
-background-color: rgb(37, 12, 91);
+@media (max-width: 767px) {
+    footer .container {
+      text-align: center;
     }
-
-
-.list-inline-item a{
-    color: #ab91f7;
-}
-
-hr{
-    color: aliceblue;
-}
-
-.fa-phone{
-    color: #ebe2e2;
-}
-
-p{
-    color: #ebe2e2;
-}
-.text{
-    color: #ab91f7;
-}
-
-.text:hover{
+    footer .row {
+      justify-content: center;
+    }
+  }
+  
+  .body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* navbar */
+  .navbar-brand {
+    color: white!important;
+  }
+  .nav-link {
+    color: white!important;
+  }
+  .nav-link:hover {
+    color: #FCCE21!important;
+  }
+  .navbar {
+    background-color: rgb(37, 12, 91)!important;
+  }
+  .navbar-nav .active {
+    color: #FCCE21!important;
+  }
+  
+  .social-link {
+    display: inline-block;
+    border: 1px solid rgb(10, 35, 196);
     color: #FCCE21;
-}
-
-
-/* hero section */
-
-
-.hero {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10%;
+  }
+  
+  .social-link:hover {
+    background-color: white;
+    color: rgb(67, 11, 234);
+  }
+  
+  hr {
+    color: aliceblue;
+  }
+  
+  .fa-phone {
+    color: #ebe2e2;
+  }
+  
+  p {
+    color: #ebe2e2;
+  }
+  
+  .text {
+    color: #ab91f7;
+  }
+  
+  a:hover {
+    color: #FCCE21;
+  }
+  
+  /* hero section */
+  .hero {
+    aspect-ratio: 16 / 9;
     background-image: url('path/to/your/image.jpg');
     background-size: cover;
-    height: 500px; /* set the height of the hero section */
   }
-
- 
-/* cards zoomhover */
+  
+  /* cards zoomhover */
   .card {
     overflow: hidden;
     position: relative;
@@ -70,4 +83,5 @@ p{
     transform: scale(1.05);
     z-index: 1;
   }
+  
 
